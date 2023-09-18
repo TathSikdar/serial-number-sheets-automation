@@ -53,7 +53,7 @@
    - Place this `credentials.json` file in the project folder you created in step 1.
 
 6. **Define SPREADSHEET_ID Variable**
-   - Locate the line in your script where you want to define the `SPREADSHEET_ID` variable (e.g., line 11).
+   - Locate `SPREADSHEET_ID` variable (line 11).
 
 7. **Copy Spreadsheet ID**
    - Go to Google Sheets and find the spreadsheet you want to work with.

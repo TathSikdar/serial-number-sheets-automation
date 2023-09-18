@@ -43,4 +43,22 @@
 
 9. **Download Credentials**
    - After creating the OAuth client ID, you'll see a screen with your client ID and client secret.
-   - Click the "Download" button to download the credentials as a JSON file. Keep this file secure; you'll need it to authenticate with the Google Sheets API.
+   - Click the "Download" button to download the credentials as a JSON file.
+
+### Using Sheets Automation File
+1. **Create a Project Directory**
+   - Create a new folder for your project. You can name it whatever you like.
+
+3. **Save Credentials**
+   - Place this `credentials.json` file in the project folder you created in step 1.
+
+6. **Define SPREADSHEET_ID Variable**
+   - Locate the line in your script where you want to define the `SPREADSHEET_ID` variable (e.g., line 11).
+
+7. **Copy Spreadsheet ID**
+   - Go to Google Sheets and find the spreadsheet you want to work with.
+   - Copy the unique identifier from the URL, which looks like this: `https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit`.
+   - Paste this ID as the value of the `SPREADSHEET_ID` variable in your Python script. For example:
+     ```python
+     SPREADSHEET_ID = "your-spreadsheet-id-here"
+     ```

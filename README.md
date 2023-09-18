@@ -1,7 +1,8 @@
 # serial-number-sheets-automation
 
-##Enable Google Sheets API
+## Enable Google Sheets API
 1. ### Sign in to the Google Cloud Console
+*item
   - Go to https://console.cloud.google.com/.
   - Sign in with your Google account or create one if you don't have it.
 2. ### Create a New Project
